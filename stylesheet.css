@@ -1,0 +1,190 @@
+body{
+    background-color: paleturquoise;
+}
+
+.heading{
+    font: 50px "Trebuchet MS", sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+hr.line{
+    border: 3px solid black;
+}
+
+.subheading{
+    font: 40px "Trebuchet MS", sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.data-available{
+    color: darkgreen;
+}
+
+.nodata{
+    color: red;
+}
+
+.map{
+    display: block;
+    width: 65%;
+    margin: auto;
+}
+
+.map path{
+    fill: darkgreen;
+    stroke: oldlace;
+    stroke-width: 1px;
+    transition: fill 0.1s;
+    cursor: pointer;
+}
+
+.map path.nodata{
+    fill: darkred;
+    cursor: default;
+}
+
+.map :hover{
+    fill: green;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font: 20px "Trebuchet MS", sans-serif;
+    background-color: oldlace;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.vertical-buttons{
+    text-align: center;
+    display: block;
+}
+
+.fixed{
+    width: 25%;
+}
+
+.divider{
+    height: 25px;
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 32px;
+    font: 30px "Trebuchet MS", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button.first{
+    color: #845EC2;
+    border: 2px solid #845EC2;
+}
+
+button.first:hover{
+    background-color: #845EC2;
+    color: white;
+}
+
+button.second{
+    color: #D65DB1;
+    border: 2px solid #D65DB1;
+}
+
+button.second:hover{
+    background-color: #D65DB1;
+    color: white;
+}
+
+button.third{
+    color: #FF6F91;
+    border: 2px solid #FF6F91;
+}
+
+button.third:hover{
+    background-color: #FF6F91;
+    color: white;
+}
+
+button.fourth{
+    color: #FF9671;
+    border: 2px solid #FF9671;
+}
+
+button.fourth:hover{
+    background-color: #FF9671;
+    color: white;
+}
+
+button.fifth{
+    color: #FFC75F;
+    border: 2px solid #FFC75F;
+}
+
+button.fifth:hover{
+    background-color: #FFC75F;
+    color: white;
+}
+
+.chart-container{
+    height: 75%;
+}
+
+.chart-parent-container{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.center-form{
+    text-align: center;
+    font: 30px "Trebuchet MS", sans-serif;
+}
+
+select{
+    font: 20px "Trebuchet MS", sans-serif;
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input{
+    font: 20px "Trebuchet MS", sans-serif;
+    width: 7%;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+}
+
+.first{
+    border: 2px solid #845EC2;
+}
+
+.second{
+    border: 2px solid #D65DB1;
+}
+
+.third{
+    border: 2px solid #FF6F91;
+}
+
+.black{
+    border: 2px solid black;
+}

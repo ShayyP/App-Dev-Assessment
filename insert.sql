@@ -1,3 +1,23 @@
+-- Adding crimes if they were deleted, if new crimes were added in their place, overwrite them as the below data is inserted based on CrimeID alone
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(1, "Homicide") ON DUPLICATE KEY UPDATE CrimeName = "Homicide";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(2, "Violence with injury") ON DUPLICATE KEY UPDATE CrimeName = "Violence with injury";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(3, "Violence without injury") ON DUPLICATE KEY UPDATE CrimeName = "Violence without injury";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(4, "Stalking and harassment") ON DUPLICATE KEY UPDATE CrimeName = "Stalking and harassment";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(5, "Death or serious injury - unlawful driving") ON DUPLICATE KEY UPDATE CrimeName = "Death or serious injury - unlawful driving";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(6, "Sexual offences") ON DUPLICATE KEY UPDATE CrimeName = "Sexual offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(7, "Robbery") ON DUPLICATE KEY UPDATE CrimeName = "Robbery";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(8, "Burglary") ON DUPLICATE KEY UPDATE CrimeName = "Burglary";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(9, "Vehicle offences") ON DUPLICATE KEY UPDATE CrimeName = "Vehicle offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(10, "Theft from a person") ON DUPLICATE KEY UPDATE CrimeName = "Theft from a person";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(11, "Bicycle theft") ON DUPLICATE KEY UPDATE CrimeName = "Bicycle theft";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(12, "Shoplifting") ON DUPLICATE KEY UPDATE CrimeName = "Shoplifting";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(13, "Other theft offences") ON DUPLICATE KEY UPDATE CrimeName = "Other theft offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(14, "Criminal damage and arson") ON DUPLICATE KEY UPDATE CrimeName = "Criminal damage and arson";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(15, "Drug offences") ON DUPLICATE KEY UPDATE CrimeName = "Drug offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(16, "Possession of weapons offences") ON DUPLICATE KEY UPDATE CrimeName = "Possession of weapons offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(17, "Public order offences") ON DUPLICATE KEY UPDATE CrimeName = "Public order offences";
+INSERT INTO Crime(CrimeID, CrimeName) VALUES(18, "Miscellaneous crimes") ON DUPLICATE KEY UPDATE CrimeName = "Miscellaneous crimes";
+
 -- Adding records
 -- Durham and Cleveland
 INSERT INTO Record(CountyID, CrimeID, Amount)

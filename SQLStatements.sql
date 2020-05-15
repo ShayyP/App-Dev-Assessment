@@ -1,14 +1,15 @@
+-- SQL used to set up the database and add original dataset
 -- Create statements
 
 CREATE TABLE County(
     CountyID INT AUTO_INCREMENT,
-    CountyName VARCHAR(30),
+    CountyName VARCHAR(30) UNIQUE,
 	PRIMARY KEY (CountyID)
 );
 
 CREATE TABLE Crime(
     CrimeID INT AUTO_INCREMENT,
-    CrimeName VARCHAR(50),
+    CrimeName VARCHAR(50) UNIQUE,
 	PRIMARY KEY (CrimeID)
 );
 

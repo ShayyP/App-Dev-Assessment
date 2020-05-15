@@ -1,3 +1,4 @@
+<!-- This page contains redirects to pages that allow the user to edit the database through forms -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,29 +8,24 @@
         <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="bootstrap.min.js"></script>
         <script type="text/javascript" src="modernizr-2.6.2.js"></script>
-        <script type="text/javascript" src="edit-records-script.js"></script>
+        <script type="text/javascript" src="edit-record-script.js"></script>
 </head>
-<body onload="getCounties()">
+<body>
 <h1 class="heading">Edit records</h1>
 <hr class="line">
 <div class="divider"></div>
 <div class="center-form">
-        <label for="counties">County</label><br><select id="counties" class="black"></select>
+        <button class="first fixed" onclick="location.href='add-record.html'" style="width: 30%">Add a new record</button>
         <br><div class="divider"></div><br>
-        <label for="crimes">Crime</label><br><select id="crimes" class="black"></select>
+        <button class="second fixed" onclick="location.href='update-record.html'" style="width: 30%">Update an existing record</button>
         <br><div class="divider"></div><br>
-        <label for="amount">Amount</label><br><input id="amount" type="number" class="black" min="0">
+        <button class="third fixed" onclick="location.href='delete-record.html'" style="width: 30%">Delete a record</button>
         <br><div class="divider"></div><br>
-        <div class="buttons">
-                <button class="first fixed" onclick="add()" style="width: 15%">Add record</button>
-                <button class="second fixed" onclick="update()" style="width: 15%">Update record</button>
-
-        </div>
-        <br>
-        <div class="buttons">
-                <button class="third fixed" onclick="remove()" style="width: 15%">Delete record</button>
-                <button class="fourth fixed" onclick="reset()" style="width: 15%">Reset records</button>
-        </div>
+        <button class="fourth fixed" onclick="reset()" style="width: 30%">Reset all records to original dataset</button>
+        <br><div class="divider"></div><br>
+        <button class="fifth fixed" onclick="location.href='new-crime.html'" style="width: 30%">Add a new crime type</button>
+        <br><div class="divider"></div><br>
+        <button class="sixth fixed" onclick="location.href='delete-crime.html'" style="width: 30%">Delete a crime type</button>
         <br><div class="divider"></div><br>
         <h2 id="affected-rows" class="subheading"></h2>
 </div>

@@ -1,3 +1,5 @@
+/* Stylesheet used for entire application */
+
 body{
     background-color: paleturquoise;
 }
@@ -132,12 +134,22 @@ button.fourth:hover{
 }
 
 button.fifth{
-    color: #FFC75F;
-    border: 2px solid #FFC75F;
+    color: #84b832;
+    border: 2px solid #84b832;
 }
 
 button.fifth:hover{
-    background-color: #FFC75F;
+    background-color: #84b832;
+    color: white;
+}
+
+button.sixth{
+    color: #00d69d;
+    border: 2px solid #00d69d;
+}
+
+button.sixth:hover{
+    background-color: #00d69d;
     color: white;
 }
 

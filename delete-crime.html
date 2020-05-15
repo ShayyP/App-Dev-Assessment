@@ -1,0 +1,27 @@
+<!-- Allows users to delete crimes that already exist in the database-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>England crime statistics</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="edit-record-script.js"></script>
+</head>
+<body onload="getCrimes()">
+<h1 class="heading">Delete a crime type</h1>
+<hr class="line">
+<div class="divider"></div>
+<div class="center-form">
+<form onsubmit="deleteCrime(); return false">
+    <label for="crimes">Crime name</label><br><select id="crimes" class="black"></select>
+    <br><div class="divider"></div><br>
+    <button class="sixth fixed" type="submit" style="width: 15%">Submit</button>
+    <br><div class="divider"></div><br>
+    <h2 id="affected-rows" class="subheading"></h2>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!-- Allows users to add new crimes to the database-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>England crime statistics</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="edit-record-script.js"></script>
+</head>
+<body>
+<h1 class="heading">Add a new crime type</h1>
+<hr class="line">
+<div class="divider"></div>
+<div class="center-form">
+<form onsubmit="addNewCrime(); return false">
+    <label for="crime">Crime name</label><br><input id="crime" type="text" class="black" style="width: 30%">
+    <br><div class="divider"></div><br>
+    <button class="fifth fixed" type="submit" style="width: 15%">Submit</button>
+    <br><div class="divider"></div><br>
+    <h2 id="affected-rows" class="subheading"></h2>
+</form>
+</div>
+</body>
+</html>

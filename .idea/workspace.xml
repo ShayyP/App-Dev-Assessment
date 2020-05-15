@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daafc615-801a-4e85-a900-661dfe7e7b6d" name="Default Changelist" comment="" />
+    <list default="true" id="daafc615-801a-4e85-a900-661dfe7e7b6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add-record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delete-crime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delete-record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit-record-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-crime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update-record.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrimeRestService.php" beforeDir="false" afterPath="$PROJECT_DIR$/CrimeRestService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLStatements.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQLStatements.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crime-by-county-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/crime-by-county-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crime-by-county.html" beforeDir="false" afterPath="$PROJECT_DIR$/crime-by-county.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/dbinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-records-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-records.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit-records.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +37,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1Zfz5YaHAy2NzVSqYHiLGpSQAGs" />
@@ -31,12 +55,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Year 2\App Dev\Project\App-Dev-Assessment" />
       <recent name="E:\Year 2\App Dev\Project\PHPStormProject" />
       <recent name="E:\Year 2\App Dev\Project\PHPStormProject\Scripts" />
     </key>
@@ -71,6 +98,14 @@
       <workItem from="1585832748067" duration="14035000" />
       <workItem from="1586013073575" duration="2259000" />
       <workItem from="1586015822826" duration="85000" />
+      <workItem from="1586016150670" duration="10000" />
+      <workItem from="1587638254850" duration="178000" />
+      <workItem from="1587652227907" duration="18840000" />
+      <workItem from="1587721383334" duration="6044000" />
+      <workItem from="1587917938056" duration="12536000" />
+      <workItem from="1588521354755" duration="3581000" />
+      <workItem from="1588704191632" duration="112000" />
+      <workItem from="1588967487947" duration="102000" />
     </task>
     <servers />
   </component>
@@ -102,10 +137,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040/1914.-1080.1920.1040@0.0.1920.1040" timestamp="1585410326071" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586015823470">
+    <state x="454" y="144" key="SettingsEditor" timestamp="1587924445452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/1914.-1080.1920.1040@0.0.1920.1040" timestamp="1586015823470" />
+    <state x="454" y="144" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/1914.-1080.1920.1040@0.0.1920.1040" timestamp="1587924445452" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1588967487647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/1914.-1080.1920.1040@0.0.1920.1040" timestamp="1588967487647" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585325030620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -11,16 +11,6 @@ class crime
         $this->County = $county;
         $this->Amount = $amount;
     }
-
-    public function getCounty()
-    {
-        return $this->County;
-    }
-
-    public function getAmount()
-    {
-        return $this->Amount;
-    }
 }
 
 class county
@@ -32,15 +22,5 @@ class county
     {
         $this->Crime = $crime;
         $this->Amount = $amount;
-    }
-
-    public function getCrime()
-    {
-        return $this->Crime;
-    }
-
-    public function getAmount()
-    {
-        return $this->Amount;
     }
 }
